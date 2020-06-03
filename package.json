@@ -1,0 +1,29 @@
+{
+  "name": "gpaserver",
+  "version": "1.0.0",
+  "description": "Google Play Application Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emancurmi/gpaserver.git"
+  },
+  "keywords": [],
+  "author": "Eman Curmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emancurmi/gpaserver/issues"
+  },
+  "homepage": "https://github.com/emancurmi/gpaserver#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
